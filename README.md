@@ -1,0 +1,2 @@
+# NetworkApplication
+监听手机网络变化，对api21之前和之后的不同情况都进行了检测
