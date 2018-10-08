@@ -53,8 +53,6 @@ public class NetWorkStateReceiver extends BroadcastReceiver {
                 sb.append(networkInfo.getTypeName() + " connect is " + networkInfo.isConnected());
             }
             //Toast.makeText(context, sb.toString(), Toast.LENGTH_SHORT).show();
-
-
             if (sb.toString().equals("MOBILE connect is trueWIFI connect is true")) {
                 Toast.makeText(context, "WIFI已连接,移动数据已连接", Toast.LENGTH_SHORT).show();
             } else if (sb.toString().equals("WIFI connect is true")) {
